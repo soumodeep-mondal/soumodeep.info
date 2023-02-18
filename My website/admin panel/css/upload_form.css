@@ -1,0 +1,124 @@
+html {
+  height: 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(#1e2936, #203f63);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.upload-icon{
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.form-body{
+  position: relative;
+  width: 84%;
+  float: right;
+  height: 100vh;
+}
+.form-box {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-48%);
+  padding: 40px;
+  padding-bottom: 80px;
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  margin: center;
+}
+
+.form-box h2 {
+  margin: 0 0 10px;
+  padding: 0;
+  color: #6f7180;
+  text-align: center;
+}
+
+.form-box .user-box {
+  position: relative;
+}
+
+.form-box .user-box input {
+  width: 100%;
+  padding: 8px 0;
+  font-size: 16px;
+  color: #6f7180;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #6f7180;
+  outline: none;
+  background: transparent;
+}
+.form-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #6f7180;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.form-box .user-box input:focus ~ label,
+.form-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #149ddd;
+  font-size: 14px;
+}
+
+.form-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #149ddd;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 2 px
+}
+
+.form-box a:hover {
+  background: #149ddd;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #149ddd,
+
+}
+
+.form-box input span {
+  position: absolute;
+  display: block;
+}
+.submitbtn{
+  position: relative;
+  top: 20px;
+  color: #fff;
+  background-color: #149ddd;
+  border: none;
+  width: 10%;
+  height: 40px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  transition: all 0.5s ease;
+}
+.submitbtn:hover{
+  transition: all 0.5s ease;
+  background-color: #213044;
+}
+
+

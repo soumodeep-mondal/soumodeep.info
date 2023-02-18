@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: #253649;
+    color: aliceblue;
+}
+.manage-body{
+  position: relative;
+  width: 84%;
+  float: right ;
+  color: #149ddd;
+
+}
+.table-name{
+    position: relative;
+    font-size: 28px;
+    color: #149ddd;
+    font-weight: bold;
+    text-align: center;
+    padding: 22px;
+    z-index: -10;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+    
+  }
+  
+  td, th {
+    border: 1px solid #a9a9a9;  
+    padding: 4px;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ffffff;
+    color: black;
+  }
+  .imgdisplay-size{
+    position: relative;
+    width:80px;
+    margin:auto;
+  }
+  .new-register-btn{
+    position: absolute;
+    top: 15%;
+    
+  }

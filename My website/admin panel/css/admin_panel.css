@@ -1,0 +1,130 @@
+html {
+  height: 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(#1e2936, #203f63);
+}
+.backhome_btn{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  padding: 5px;
+  padding-top: 6px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #203f63;
+}
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #6f7180;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #6f7180;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #6f7180;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #6f7180;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #149ddd;
+  font-size: 14px;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #149ddd;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 2 px
+}
+
+.login-box a:hover {
+  background: #149ddd;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #149ddd,
+
+}
+
+.login-box input span {
+  position: absolute;
+  display: block;
+}
+
+.submitbtn{
+  color: #fff;
+  background-color: #149ddd;
+  border: none;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  transition: all 0.5s ease;
+}
+.submitbtn:hover{
+  transition: all 0.5s ease;
+  background-color: #213044;
+}
+/*=================Admin Login End=====================*/
+/*=================Admin Dashboard=====================*/
+.dashboard{
+  position: relative;
+  color: #fff;
+  top: 20px;
+  padding: 10px;
+  border-radius:10px ;
+  background-color: #465160;
+}
+
+
+
+ /*=================Admin Dashboard End=====================*/
